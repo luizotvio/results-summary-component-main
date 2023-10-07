@@ -1,0 +1,20 @@
+@media (min-width: 785px) {
+    body {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+
+    }
+
+    main {
+        /* width: minmax(600px, 70%, 80%); */
+        border-radius: 2rem;
+        box-shadow: 0.5rem 1rem 3rem hsla(240, 75%, 51%, 0.05);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .u-result {
+        border-radius: 2rem;
+    }
+}
